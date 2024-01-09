@@ -1,6 +1,6 @@
-# word-limit README
+# Word Limit README
 
-`word-limit` is a markdown word counter that helps you avoid going over a word limit in markdown files.
+`Word Limit` is a markdown word counter that helps you avoid going over a word limit in markdown files.
 
 ## Features
 
@@ -49,9 +49,3 @@ None!
 ### 1.0.0
 
 Initial release of word limit
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
