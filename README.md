@@ -1,8 +1,20 @@
 # word-limit README
 
-This is the README for your extension "word-limit". After writing up a brief description, we recommend including the following sections.
+`word-limit` is a markdown word counter that helps you avoid going over a word limit in markdown files.
 
 ## Features
+
+If you specify a word limit, it will change your text background to red when you exceed that limit.
+
+You specify the word limit by adding a comment with the form
+
+```md
+<!-- limit: 500 -->
+```
+
+(Comments are ignored in the word count, so this tag won't count.)
+
+## Features suggestions
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
@@ -14,58 +26,32 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+None!
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+None!
 
-For example:
+Word limits are edited in-file using a comment of the form
 
-This extension contributes the following settings:
+```md
+<!-- limit: 500 -->
+```
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Hint: you can get the comment scaffold quickly in a markdown file using the comment shortcut (`CMD-/` on a mac, `CTRL-/` on Linux or Windows).
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None!
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
+Initial release of word limit
 
 ## Following extension guidelines
 
 Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

@@ -1,24 +1,22 @@
 {
-  "name": "word-limit",
-  "displayName": "word-limit",
-  "description": "Enforce word count goals by stopping after the count is reached",
-  "version": "0.0.1",
+  "name": "wordlimit",
+  "displayName": "Word Limit",
+  "description": "Enforce word limit goals using a strong visual indicator when they are exceeded.",
+  "author": {
+    "name": "Douglas H. Bradshaw"
+  },
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "license": "MIT",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "word-limit.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
