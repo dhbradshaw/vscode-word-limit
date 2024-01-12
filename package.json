@@ -5,6 +5,7 @@
   "author": {
     "name": "Douglas H. Bradshaw"
   },
+  "publisher": "dhbradshaw",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
@@ -13,6 +14,10 @@
     "Other"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhbradshaw/vscode-word-limit"
+  },
   "activationEvents": [
     "onLanguage:markdown"
   ],
